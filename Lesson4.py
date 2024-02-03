@@ -6,7 +6,7 @@ class Student:
         self.age = age
 
     def __str__(self):
-        return f"Name: {self.name}, Age: {self.age}, Grade: {self._grade}"
+        return Name: {self.name}, Age: {self.age}, Grade: {self._grade}"
 
     @property
     def is_passing(self):
