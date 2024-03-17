@@ -61,6 +61,13 @@ class Menu:
         else:
             print("Invalid choice")
 
+    def save_users(self):
+        with open("users.json", "w") as file:
+            json.dump(self.users, file)
+
+
+
+
     def register_user(self):
         username = input("Enter username: ")
         if username in self.users:
